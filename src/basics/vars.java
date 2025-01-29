@@ -14,7 +14,7 @@ public class vars {
         String  apple = "red";
         String APPLE = "RED";
 
-        int num12 = 34;
+        int num12 = 34; // ye value memory me STACK me store ho ri hai
         System.out.println(APPLE);
         System.out.println(apple);
         System.out.println(num12);
