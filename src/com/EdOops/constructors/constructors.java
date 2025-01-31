@@ -16,6 +16,9 @@ public class constructors {
 
 //        A a = new A("Gautam", 0920, 21); ye daalne se paramterized constructor kaam karega
 
+        B b = new B("Gautam", 21);
+        System.out.println(b.getName());
+        System.out.println(b.getAge());
     }
 }
 
