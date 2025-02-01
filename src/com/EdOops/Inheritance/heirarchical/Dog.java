@@ -1,7 +1,9 @@
 package com.EdOops.Inheritance.heirarchical;
 
 public class Dog extends Animal{
-    public void eat() {
+
+    @Override
+    public void sound() {
         System.out.println("woof!!");
     }
 }
