@@ -1,0 +1,8 @@
+1) In method OVERLOADING we can have multiple functions but having "different parameters"..
+2) sum(int a, int b) --> Method signature
+3) We can have same method signature with different parameters known as method overloading, and can have different return types;
+    For eg:
+    * void sum(int a, int b);
+    * int sum(int a, int b, int c);
+    * float sum(int a, flaot b);
+    * double sum(int a, double b);

@@ -6,10 +6,7 @@ public class Child extends Parent{
         super(eyeColor, height); // also used to call parameterized constructor of super class
 
 //      super(); It is super keyword, it calls supper class.
-//      super keyword refers immediate parent.
-//      in defalut constructors, jvm ese apne aap call karta hai
-//      it should be written in first line.
-//      also used to call the super class constructor,methods, or fields in child class
+
         System.out.println("Child constructor called.");
     }
 

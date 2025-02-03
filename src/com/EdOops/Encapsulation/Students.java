@@ -1,9 +1,5 @@
 package com.EdOops.Encapsulation;
-// Encapsulation is DATA HIDING.
-// class me do cheeze hoti hai --> properties/fields/instance variable & behaviour
-// Note -> class ke vars ko instance vars & methods ke vars ko local vars kehte hai.
-// To achieve encapsulation declare instance vars as private and methods as public.
-// therefore to access data we need GETTER and SETTER methods for each fields.
+
 public class Students {
 
     private String name;

@@ -1,0 +1,5 @@
+1) super keyword refers immediate parent.
+2) It calls super class.
+3) In defalut constructors, jvm ese apne aap call karta hai
+4) It should be written in first line.
+5) Also used to call the super class constructor,methods, or fields in child class

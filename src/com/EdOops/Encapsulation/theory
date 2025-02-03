@@ -1,0 +1,5 @@
+1) Encapsulation is DATA HIDING.
+2) Class me do cheeze hoti hai --> properties/fields/instance variable & behaviour
+3) Note -> class ke vars ko instance vars & methods ke vars ko local vars kehte hai.
+4) To achieve encapsulation declare instance vars as private and methods as public.
+5) Therefore to access data we need GETTER and SETTER methods for each fields.

@@ -1,0 +1,7 @@
+
+1) NOTE --> agar kisi method ko abstract declare kiya hai to class ko bhi karna padega.
+2) Abstract class contains abstract as well as concrete methods also.
+3) We cannot create object for abstract class, but constructor bana sakte hai and use protected declare karna hoga for some reason
+4) Agar abstract class ko public nahi kiya to other packages ke child class access nahi kar
+   paaenge. Then it will become package private.
+5) protected access modifier ke liye inheritance karna jaruri hai

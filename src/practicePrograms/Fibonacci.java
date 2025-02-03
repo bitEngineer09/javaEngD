@@ -13,8 +13,9 @@ public class Fibonacci {
         int y = 1;
         int sum = 0;
         System.out.print("Give max value: ");
+
         int maxValue = input.nextInt();
-        while(sum <= maxValue){
+        while (sum <= maxValue) {
             System.out.print(sum+" ");
             x = y;                       // x me y ki value daalo.
             y = sum;                     // y me sum ki value daalo.
