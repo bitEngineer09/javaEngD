@@ -1,0 +1,5 @@
+1) finally block is used to execute important code such as cleanup tasks,
+   regardless of whether an exception was thrown or not.
+2) It's an optional part of the try-catch statement and guarantees that the block of code within it will always run,
+   even if an exception occurs in the try block or if the try block completes normally.
+finally block me vo code dalte hai jise chalana always jaruri hai.

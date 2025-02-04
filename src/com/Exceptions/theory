@@ -1,0 +1,10 @@
+--Types of errors--
+1. Syntax error
+2. Logical error
+3. Runtime error
+
+1) Program will crash during run time errors.
+2) The Exception Handling is a way to handle the runtime errors so that the normal flow of the application can be maintained.
+3) Exception is an event that disrupts the normal flow of the program.
+4) It is an object which is thrown at runtime
+
