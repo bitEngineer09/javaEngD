@@ -1,0 +1,8 @@
+1) RACE CONDITIONS occur when multiple threads access shared resources without proper synchronization.
+
+2) MUTUAL EXCLUSION (Mutex) means only one thread can access a shared resource at a time to prevent issues like race conditions.
+
+3) CRITICAL SECTION is a part of a program where shared resources (like variables, files, or databases) are accessed by multiple threads.
+
+4) SYNCHRONIZATION in Java is a technique used to control the access of multiple threads to shared resources. It ensures that
+   ,only one thread can access a critical section at a time, preventing race conditions and inconsistent data.
