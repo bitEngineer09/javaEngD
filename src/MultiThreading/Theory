@@ -1,0 +1,19 @@
+1) MULTITHREADING refers to the ability to execute multiple threads within a single process concurrently.
+
+2) A web browser can use multithreading by having separate threads for rendering the page, running JavaScript, and,
+   managing user inputs. This makes the browser more responsive and efficient.
+
+3) Multithreading enhances the efficiency of multitasking by
+   breaking down individual tasks into smaller sub-tasks or
+   threads. These threads can be processed simultaneously,
+   making better use of the CPU's capabilities.
+
+4) In a single-core system: -->
+   Both threads and processes are managed by the OS scheduler
+   through time slicing and context switching to create the illusion of simultaneous execution.
+
+
+5) In a multi-core system: -->
+   Both threads and processes can run in true parallel on
+   different cores, with the OS scheduler distributing tasks across the cores to optimize performance.
+
