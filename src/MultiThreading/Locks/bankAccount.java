@@ -36,8 +36,8 @@ public class bankAccount {
                 System.out.println(Thread.currentThread().getName() + " could not acquire the lock, will try again later");
             }
         } catch (InterruptedException e) {
-            Thread.currentThread().interrupt(); // It is a good practice. ab us interrupted thread ke saath kaam bhi akr sakte hai.
-            // agar hum ye nahi likhte to hum interrupted thread ki sate kho dete.
+            Thread.currentThread().interrupt(); // It is a good practice. ab us interrupted thread ke saath kaam bhi kar sakte hai.
+            // agar hum ye nahi likhte to hum interrupted thread ki state kho dete.
         }
         if(Thread.currentThread().isInterrupted()){ // yaha hum usi interrupted thread se related kuch bhi code likh sakte hai,
 //            jaise ki koi maintenance code, cleanUp code, etc
