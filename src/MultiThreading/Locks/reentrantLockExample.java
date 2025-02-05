@@ -32,7 +32,7 @@ public class reentrantLockExample {
         }
         finally {
             lck.unlock(); // 3) unlock hoke -> count - 1 hoga naaki 0
-//           agar hum yaha first unlock likh de to lock completely unlock ho jaaega.
+//           agar hum yaha first vala unlock code likh de to lock completely unlock ho jaaega.
         }
     }
 
