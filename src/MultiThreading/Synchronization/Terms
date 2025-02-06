@@ -6,3 +6,11 @@
 
 4) SYNCHRONIZATION in Java is a technique used to control the access of multiple threads to shared resources. It ensures that
    ,only one thread can access a critical section at a time, preventing race conditions and inconsistent data.
+
+5) STARVATION happens when a thread waits too long and doesn’t get a chance to run because other threads keep taking all the CPU time or resources.
+
+Disadvantages -->
+a) SYNCHRONIZATION me fairness ki guaranty nahi hai.
+b) indefinitely blocking hoti hai.
+c) interruptibility bhi nahi hai, matlab ki agar koi lock bht der se baitha hai to use interrupt nahi kar sakte.
+d) synchronized ko pata hee nahi hai ki konsa read lock/ write lock hai.

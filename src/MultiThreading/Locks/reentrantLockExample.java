@@ -3,7 +3,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class reentrantLockExample {
-
+// Lock is an INTERFACE  |  ReentrantLock is an IMPLEMENTATION class
     public final Lock lck = new ReentrantLock();
 //  yaha outer method ne lock acquire kiya,
 //  then innerMethod call hua, fir vo same lock ko acquire karne ki koshih kar ra hai

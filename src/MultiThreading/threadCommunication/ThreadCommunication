@@ -1,0 +1,18 @@
+1) In a multithreaded environment, threads often need to communicate
+   and coordinate with each other to accomplish a task.
+
+2) Without proper communication mechanisms, threads might end up in inefficient
+   busy-waiting states, leading to wastage of CPU resources and potential deadlocks.
+
+3) Some methods for Thread Communcation -->
+   i)  wait - ye bolta hai current thread ko lock kar do and wait
+       karo jab tak dusra thread notify yaa fir notifyAll nahi chala deta.
+
+   ii) notify - wakes up a single thread that is waiting.
+
+   ii) notifyAll - wakes up all thread that are waiting.
+
+These methods can only be called in synchronized area.
+
+
+

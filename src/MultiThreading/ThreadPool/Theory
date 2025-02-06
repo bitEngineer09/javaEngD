@@ -1,0 +1,30 @@
+Thread Pool -- Collection of pre-initialized threads.
+
+* bina thread pool ke thread create honge destroy honge baar baar ,
+  to eski vajah se bhi to memory jaa ri hai
+
+-----why required ??-----
+ 1) Resource Management
+ 2) Response Time (response time badh jaaega)
+ 3) Control Over Thread Count (kitne hum maximum number of threads create kar sakte hai uspe rok laga deta hai.)
+
+-----Executors Framework in Java-----
+
+The Executors framework was introduced in Java 5 as part of the java.util.concurrent
+package to simplify the development of concurrent applications by abstracting away
+many of the complexities involved in creating and managing threads.
+
+It consists of three core interfaces
+  a) Executor
+  b) ExecutorService
+  c) ScheduledExecutorService
+
+-----Problems w/o Exe.Fram.-----
+
+Manual Thread Management
+1) Resource Management (resource management nahi hota dhang se)
+2) Scalability (jiski vajah se scalabilty achieve nahi ho ri hai, means agar jyada
+                req aaengi to ho sakta hai ki system baith jaaye)
+3) Thread Reuse
+4) Error Handling (jab hum manually sab karenge to jyada ghich pich
+                    ho jaaengi cheeze, complexity increase ho jaaegi)
