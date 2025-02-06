@@ -11,7 +11,6 @@ public class test {
         System.out.println(parent.getAge());
         parent.greet();
 
-
         Child child = new Child(); // child is inheriting parent and, parent is inheriting grandparent
         child.setName("Gautam");
         child.setAge(8);

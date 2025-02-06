@@ -1,5 +1,8 @@
 package com.EdOops.Inheritance.multilvl;
+
 public class Parent extends GrandParent {
+
+    @Override
     public void greet () {
         System.out.println("Namaste");
     }

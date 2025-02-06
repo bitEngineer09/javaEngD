@@ -3,6 +3,7 @@ package com.EdOops.Inheritance.multilvl;
 public class GrandParent {
 
     private String name;
+
     private int age;
 
     public void setName(String name) {

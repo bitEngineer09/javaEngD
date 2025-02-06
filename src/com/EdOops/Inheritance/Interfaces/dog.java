@@ -1,4 +1,4 @@
-package com.engineeringdigest.corejava.Interfaces;
+package com.EdOops.Inheritance.Interfaces;
 
 public class dog implements Animal{
     @Override

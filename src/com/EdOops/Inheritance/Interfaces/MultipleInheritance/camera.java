@@ -1,4 +1,4 @@
-package com.engineeringdigest.corejava.Interfaces.MultipleInheritance;
+package com.EdOops.Inheritance.Interfaces.MultipleInheritance;
 
 public interface camera {
     void takePhoto();

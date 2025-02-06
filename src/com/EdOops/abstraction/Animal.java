@@ -2,7 +2,9 @@ package com.EdOops.abstraction;
 
 
 public abstract class Animal {
+
     private boolean superPowers;
+
     protected Animal(){
         this.superPowers = superPowers;
     }
