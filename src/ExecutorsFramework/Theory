@@ -1,7 +1,23 @@
 * public interface ExecutorService extends Executor
-
 1) executor.shutdown(); -> orderly shut down kar deta hai
 
 2) executor.shutdownNow(); -> sab kuch band kar dega, bina kuch task kiye.
 
-Executor interface me bass 'executor()' method hai
+* Executor interface me bass 'executor()' method hai
+
+--Executors class methods--
+
+a) Executors.newSingleThreadExecutor(); --> single Thread banata hai
+
+b) Executors.newScheduleThreadPool(corePoolSize: ); --> kitne thread ka pool
+
+c) Executors.newFixedThreadPool(nThreads: ); --> esme fixed number of threads create karte hai
+
+d) Executors.newCachedThreadPool(); --> " ye ek threadPool banata hai, jaha par
+     ye naye Threads create karta hai jarurat padne par, agar kisi thread ki jarurat nahi hai,
+     to usko terminate kar deta hai 60 seconds ki inactivity ke baad.
+     jaha cheeze variable hoti hai vaha hum eska use kar sakte hai "
+
+   * It dynamically adjusts the poolSize.
+   * It should be used when load is variable.
+   * when the load is short lived means jaldi se khatam ho.

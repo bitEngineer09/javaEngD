@@ -1,4 +1,4 @@
-package ExecutorsFramework;
+package ExecutorsFramework.awaitTermination;
 
 // 1) awaitTermination ek boolean value deta hai
 // 2) Returns: true if this executor terminated and false if the

@@ -1,0 +1,29 @@
+* The .get() method is used to get the result of a task that runs in the background.
+  However, if the task is still running, .get() will make your program wait (or "block") until the result is ready.
+
+---- FUTURE ke uses ----
+* hume ye check karna hai ki kaam succesfful hua yaa nahi
+* agar ander likha hua method kuch return karva raha hai to future se get kar sakte hai
+* agar wait karvana hai likhe hue logic ke computaion ka to future use kar sakte ho
+
+----Best Practices----
+1) Use get(timeout, unit) instead of get() to avoid indefinite blocking.
+2) Use try-catch to handle exceptions, including InterruptedException,
+   ExecutionException, and TimeoutException.
+
+----FUTURE METHODS ----
+1) future.get() InterruptedException, ExecutionException throw karta hai.
+ye method ka matlab tabhi hai jab kuch return kar rahe ho submit me
+
+2) Using .get(timeout, unit) to Avoid Infinite Blocking
+
+3) .isDone()  kaam hua yaa nahi
+   * Returns true if this task completed.
+   * Completion may be due to normal  termination, an exception, or
+   * cancellation -- in all of these cases, this method will return true.
+
+4) .cancelled(true) --> chahe task chale yaa naa chale, task ko cancel karna hee hai.
+
+5) .cancelled(false) --> agar task chal ra hai to usko mat interrupt karo
+
+

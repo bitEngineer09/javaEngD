@@ -1,0 +1,10 @@
+Runnable----
+return (NO)
+has run()
+don't throws any Exception inside its overriden method signature
+
+
+Callable----
+return (YES)
+has call()
+throws Exception -> declared in method signature of its call()

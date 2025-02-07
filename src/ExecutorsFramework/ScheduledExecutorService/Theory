@@ -1,0 +1,21 @@
+* Agar hume kuch delay ke baad karana hai, yaa fir koi cheez periodically karvani hai
+  tab ScheduledExecutorService use karenge.
+* It extends ExecutorService(Interface)
+* ExecutorService extends Executor(Interface)
+
+Its methods.
+1) .schedule()
+2) .scheduleAtFixedRate() --> " esme task ek regular interval pe run hoga,
+use koi matlab nahi hai, ki jo kaam hai usme kitna time lag raha hai.
+Suppose humne 5 sec ka gap de rakha hai(delay) b/w each interval,
+lekin ho sakta hai ki kaam 10 seconds tak chale.
+Hume usse matlab hee nahi hai, hume to bass 5 seconds ke baad he dusra kaam kar dena hai,
+chahe pehle vala chal hee raha ho. "
+
+3) .scheduleWithFixedDelay() --> " initial delay matlab pehla kaam to utne delay ke baad hee shuru hoga,
+uper bhi same hee hai hai working of initial delay.
+Difference is that in fixedRate me period hota hai, but FixedDelay me delay hota hai.
+Eska matlab hai ki ek task khatam hone ke baad mai kitna wait karu, to start the next task.
+Ye scheduledFuture<?> dega
+
+4) ScheduledFuture<?> --> ab eske bhi methods honge, check kar liyo
