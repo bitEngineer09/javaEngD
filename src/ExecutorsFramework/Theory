@@ -1,0 +1,7 @@
+* public interface ExecutorService extends Executor
+
+1) executor.shutdown(); -> orderly shut down kar deta hai
+
+2) executor.shutdownNow(); -> sab kuch band kar dega, bina kuch task kiye.
+
+Executor interface me bass 'executor()' method hai
