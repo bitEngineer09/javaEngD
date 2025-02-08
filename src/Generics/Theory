@@ -1,0 +1,27 @@
+* Generics was introduced in JAVA 5
+
+Issues before java Generics-----
+-> Type safety
+-> Manual casting
+-> No compile time checking
+
+/*  -- issue before generics --
+        ArrayList list = new ArrayList();
+            // pehle hum kuch bhi add kara dete the, and fir user
+            // bhi kuch bhi acces karta tha, and fir manually typecasting karke data lena padta tha
+        list.add(23);
+        list.add("Hello");
+        list.add("Generics");
+
+        String s = (String) list.get(0); // humne yaha integer data ko String me typecast kiya hai
+        System.out.println(s);
+*/
+
+----Naming Convention----
+While you can name type parameters anything, the convention is to use single letters that describe the purpose of the type parameter:
+
+T: Type
+E: Element (used in collections)
+K: Key (used in maps)
+V: Value (used in maps)
+N: Number
