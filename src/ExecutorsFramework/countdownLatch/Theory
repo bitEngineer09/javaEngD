@@ -1,0 +1,15 @@
+1) countdown matlab 10 se ginti kar re hai 0 tak
+   latch matlab taala/kundi
+
+2) "cdlatch ka hum use tab karte hai jab ek yaa ek se
+   jyada Threads ko unke completion ka wait karana  hai. " (jab hume multiple threads ka complete hone ka wait karana padta hai)
+
+3) ese resuablilty ke case me use nahi karna hota hai
+   * cdLatch resuable nahi hota
+   * once the count reaches 0, it cannot be reset.
+
+4) ye bht simple hota hai, that's why we use CDLacth. (Simplicity)
+
+5) jo hum number of services pass karenge CountDown latch ke constructor me,
+   fir ulti ginti(CountDown) shuru ho jaaegi 0 tak, fir taala khul jaaega, and main thread chal ne lagega.
+

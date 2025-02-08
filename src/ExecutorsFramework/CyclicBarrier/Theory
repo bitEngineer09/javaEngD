@@ -1,0 +1,12 @@
+1) esme multiple threads wait karenge ek specific point pe aakar,
+   until all threads have reached that point. (" jab last thread us point par
+   ata hai, matlab ki us barrier par ata hai, tab saare ke saare threads fir
+   release ho jaate hai ")
+2) cyclic barrier main thread ko block nahi karta,
+   ese tab use karna hai whent to make sure that ki saare threads ek
+   certain point par reach ho jaaye, before any of them proceed.
+3) Note -> Trip means meeting at the barrier point
+
+ barrier.reset();
+ barrier.getParties(); // number of Services return karega
+ barrier.getNumberWaiting() // specific point par kitne number of waiting hai
