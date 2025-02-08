@@ -1,6 +1,7 @@
 package Generics.BoundedParameters;
 
 public class Box<T extends Number> {
+    // T pe boundation laga re hai
     // Number class super class hai.
     // float, integer, double, etc sab esko extend karte hai
 
