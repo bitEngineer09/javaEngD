@@ -1,6 +1,8 @@
 package engineeringDigestCoreJava.com.engineeringdigest.corejava.methods;
 // Note --> Koi bhi number uske half se jyada divide hoga hee nahi
+
 public class primeMethodLogic2 {
+
     public static void main(String[] args) {
         System.out.println(isPrime(4));
     }
