@@ -1,4 +1,4 @@
-package engineeringDigestCoreJava.com.engineeringdigest.corejava.Enum;
+package engineeringDigestCoreJava.com.corejava.Enum;
 
 public class Test {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Test {
         System.out.println(monday.toString()); // same as .name()
 
         Day enumday = Day.valueOf("MONDAY"); // ye loop chalega enum me internally and check karega ki given input enum me hai yaa nahi
-                                                  // match hui to return karega, and nahi hui to exception throw karega.
+        // match hui to return karega, and nahi hui to exception throw karega.
         Day[] values = Day.values();
         for (Day i : values){
             System.out.println(i);

@@ -1,4 +1,4 @@
-package engineeringDigestCoreJava.com.engineeringdigest.corejava.Enum;
+package engineeringDigestCoreJava.com.corejava.Enum;
 // Enumeration means list Of things.
 // jab bhi koi data frequently use karte hai tab Enums use karte hai.
 // fields hamesha constants likhne ke baad he declare karenge.
@@ -16,7 +16,7 @@ public enum Day {
     FRIDAY(6, "shukrvar"),
 
     SATURDAY (7, "shanivar"); // now these are constants.
-                                                                  // In this sun, mon,... are the Final Instances of class Day
+    // In this sun, mon,... are the Final Instances of class Day
     private String lower;
     private int dayNum;
 
@@ -39,5 +39,4 @@ public enum Day {
         return this.dayNum = dayNum;
     }
 }
-
 

@@ -28,7 +28,7 @@ public class stringMethods {
 
         System.out.println(firstName.concat(lastName));
 
-        System.out.println(firstName.equals(lastName));
+        System.out.println(firstName.equals(lastName)); // char to char check karta hai
 
         System.out.println(firstName.toUpperCase());
 
@@ -37,7 +37,7 @@ public class stringMethods {
         System.out.println(firstName.trim()); // removes unnecessary spaces. Mostly this method is use in forms.
 
         System.out.println(firstName.contains("A")); // Always use double quotes
-        System.out.println(firstName.contains("RAM"));
+        System.out.println(firstName.contains("RAM")); // ye bhi char to char check karta hai
         System.out.println(firstName.contains("ram"));
 
         String e = "red";
@@ -49,7 +49,7 @@ public class stringMethods {
 
         System.out.println(firstName.endsWith("M"));
 
-        String str = ""; // agar space bhi daal diya to False.
+        String str = ""; // agar space daal diya to False.
         System.out.println(str.isEmpty());
 
         String bl = " "; // agar space hata diya to false
@@ -58,7 +58,7 @@ public class stringMethods {
         int x = 10;
         String s = String.valueOf(x); // converts to String.
         System.out.println(s);
-        System.out.println(s.getClass());
+        System.out.println(s.getClass()); // getClass method bass Wrapper classes hee show karta hai
 
 
         System.out.println('c' + 0); // prints ASCII value
