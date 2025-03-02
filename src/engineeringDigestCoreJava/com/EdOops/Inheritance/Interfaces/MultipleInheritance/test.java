@@ -6,5 +6,6 @@ public class test {
         s.playMusic();
         s.recordVideo();
         s.stopMusic();
+        s.takePhoto();
     }
 }
