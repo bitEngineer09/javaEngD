@@ -1,4 +1,4 @@
-package engineeringDigestCoreJava.com.engineeringdigest.corejava.StaticIntro;
+package engineeringDigestCoreJava.com.corejava.StaticIntro;
 
 
 public class Test {
