@@ -1,9 +1,11 @@
-package CollectionFramework.one_ListInterface.ArrayList.ComparatorEg;
+package CollectionFramework.ComparatorEg;
 
-// Comparator is an Interface by which we can do custom ordering
-// we need to implement Comparator interface
-// Comparator ek FunctionInterface, jise implement karne ke liye ek implementation class banani padti hai
-
+// 1) Comparator is an Interface by which we can do custom ordering
+// 2) we need to implement Comparator interface
+// 3) Comparator ek FunctionInterface, jise implement karne ke liye ek implementation class banani padti hai
+// 4) Comparator me compare method hota hai, jisme do cheezo ko compare karte hai, class ke bahar
+// 5) Comparable me compareTo method hota hai, jisme ek hee se compare karte hai, inside class
+// 6) Internally something.compareTo() chalta hai
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,7 +18,7 @@ class StringLengthComparator implements Comparator<String> {
     public int compare(String s1, String s2) {
         return s2.length() - s1.length();
 
-        // s1     s2
+        //  s1     s2
         // "ok"  "bye"
     }
 }
@@ -28,7 +30,7 @@ class IntegerComparator implements Comparator<Integer> {
         // negative return me i1 - i2 me ascending order aaega
         // positive return me i2 - i1 me descending order aaega
         // 0 return me same preferance hoga
-
+// negative integer return karvana hota hai jab first arg less than second ho
         // NOTE -> Ascending me jaise aaye hai vaise hee minus kar do, descending me ulta kar do
     }
 }

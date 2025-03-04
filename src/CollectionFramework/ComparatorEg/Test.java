@@ -1,8 +1,6 @@
-package CollectionFramework.one_ListInterface.ArrayList.ComparatorEg;
+package CollectionFramework.ComparatorEg;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 class Student {

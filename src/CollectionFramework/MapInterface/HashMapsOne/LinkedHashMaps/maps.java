@@ -1,4 +1,4 @@
-package CollectionFramework.MapInterface.LinkedHashMaps;
+package CollectionFramework.MapInterface.HashMapsOne.LinkedHashMaps;
 
 // LinkedHashMap extends HashMap.
 // LinkedHashMap is class of HashMap.

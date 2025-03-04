@@ -1,4 +1,4 @@
-package CollectionFramework.MapInterface.HashMaps;
+package CollectionFramework.MapInterface.HashMapsOne;
 // in hashMap order maintain nahi rehta hai
 // values can be null but keys can have only one null
 

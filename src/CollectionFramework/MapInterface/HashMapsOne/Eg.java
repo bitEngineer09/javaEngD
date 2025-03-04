@@ -1,4 +1,4 @@
-package CollectionFramework.MapInterface.HashMaps;
+package CollectionFramework.MapInterface.HashMapsOne;
 // ********* ye eg pura nahi hai dekh liyo
 import java.util.HashMap;
 
