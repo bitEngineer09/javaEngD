@@ -1,0 +1,3 @@
+* Thread-saftey + Mutability = StringBuffer {Slower due to synchronization}
+* Mutability + Performance = StringBuilder
+* Jab sirf constants hee chahiye, kuch change nahi karna hai = String
