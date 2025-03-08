@@ -1,4 +1,4 @@
-package _4_Streams;
+package _4_Streams._1_Demo;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package _4_Streams;
+package _4_Streams._1_Demo;
 
 import java.util.*;
 import java.util.stream.Collectors;

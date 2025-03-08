@@ -1,4 +1,4 @@
-package _4_Streams;
+package _4_Streams._1_Demo;
 
 // feature introduced in Java 8
 // process collections of data in a functional and declarative manner

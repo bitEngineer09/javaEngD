@@ -1,4 +1,4 @@
-package _4_Streams;
+package _4_Streams._1_Demo;
 
 // Intermediate operations transform a stream into another stream
 // They are lazy, meaning they don't execute until a terminal operation is invoked.
